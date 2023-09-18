@@ -1,0 +1,27 @@
+---
+# API TOKEN (AUTHORISATION BEARER TOKEN) - REQUIRED
+
+# 54 character-long Bearer Token is provided for you by Unreal Speech for Synthesis tasks.
+# You can find the Token by loggin in to your account at unrealspeech.com (do not share it with anyone!)
+# In the form (x is any latin character or number): Bearer xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# -- Do not include the word 'Bearer' in the token --
+authorisation_bearer_token:
+
+# -------------OPTIONAL PARAMETERS-------------
+# PATHS: Use forward slashes "/" as separators
+
+# absolute path on your system to text files that should be processed,
+# by default they are stored in the 'texts_to_process' directory within the current directory
+text_input_path:
+processed_texts_path:
+# absolute path on your system to store audio files
+# by default they are stored in the 'audio' directory within the current directory
+mp3_output_path:
+
+voice_id:
+bitrate:
+speed:
+pitch:
+timestamp_type:
+
+...
